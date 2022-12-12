@@ -3,8 +3,8 @@
     <dimen name="recyclerview_bottom_margin">12dp</dimen>
     <dimen name="recyclerview_item_end_margin">8dp</dimen>
 
-    <dimen name="portrait_image_width_small">90dp</dimen>
-    <dimen name="portrait_image_height_small">90dp</dimen>
+    <dimen name="portrait_image_width_small">120dp</dimen>
+    <dimen name="portrait_image_height_small">120dp</dimen>
 
     <dimen name="card_corner_radius">4dp</dimen>
     <dimen name="card_elevation">4dp</dimen>

@@ -11,7 +11,7 @@
         app:cardCornerRadius="@dimen/card_corner_radius"
         app:cardElevation="@dimen/card_elevation">
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:foreground="?attr/selectableItemBackground"
@@ -23,7 +23,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/petImage"
-                android:layout_width="@dimen/portrait_image_width_small"
+                android:layout_width="match_parent"
                 android:layout_height="@dimen/portrait_image_width_small"
                 android:scaleType="centerCrop"
                 app:layout_constraintStart_toStartOf="parent"
@@ -32,15 +32,17 @@
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tvTitle"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/start_margin"
-                android:layout_marginBottom="4dp"
+                android:padding="@dimen/top_margin_small"
                 android:ellipsize="end"
                 android:textSize="@dimen/title_text_size_small"
                 android:textStyle="bold"
+                android:background="@color/white20"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
                 tools:text="Title" />
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </layout>
