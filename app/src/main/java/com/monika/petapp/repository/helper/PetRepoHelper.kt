@@ -4,7 +4,6 @@ import android.app.Application
 import com.google.gson.Gson
 import com.monika.petapp.R
 import com.monika.petapp.model.PetList
-import com.monika.petapp.model.WorkTimeList
 import org.json.JSONObject
 
 /*

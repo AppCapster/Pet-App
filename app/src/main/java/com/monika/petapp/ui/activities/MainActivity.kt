@@ -13,8 +13,6 @@ import com.monika.petapp.ui.adapter.PetAdapter
 import com.monika.petapp.ui.helper.OnClickListeners
 import com.monika.petapp.ui.viewmodel.MainActivityViewModel
 import com.monika.petapp.utils.WorkUtil
-import java.util.*
-import kotlin.concurrent.schedule
 
 class MainActivity : AppCompatActivity() {
 
@@ -59,9 +57,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun hideProgress() {
+    private fun hideProgress() {
         binding.progressBar.visibility = View.GONE
         binding.recyclerView.visibility = View.VISIBLE
-
     }
 }

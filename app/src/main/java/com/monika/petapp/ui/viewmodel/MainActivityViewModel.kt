@@ -5,7 +5,6 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.monika.petapp.model.PetList
-import com.monika.petapp.model.WorkTimeList
 import com.monika.petapp.repository.PetRepository
 import kotlinx.coroutines.launch
 
